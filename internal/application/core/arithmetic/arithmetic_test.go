@@ -31,7 +31,7 @@ func TestSubtraction(t *testing.T) {
 func TestMultiplication(t *testing.T) {
 	arith := New()
 
-	answer, err := arith.Multiplication(1, 1)
+	answer, err := arith.Multiplication(44, 11)
 	if err != nil {
 		t.Fatalf("expected: %v, got: %v", nil, err)
 	}
